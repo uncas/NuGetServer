@@ -7,6 +7,7 @@ The project uses the NuGet package NuGet.Server.
 To set up the NuGet package server:
 
 * Clone the repository
-* Configure package path and api key in web.config\appSettings\packagesPath and apiKey
+* Configure path of package folder and api key in web.config\appSettings\packagesPath and web.config\appSettings\apiKey
+* Put NuGet packages (*.nupkg) in the package folder
 * Build the solution
 * Mount the website
